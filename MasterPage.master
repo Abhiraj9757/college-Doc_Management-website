@@ -1,0 +1,301 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta charset="UTF-8" />
+	
+   
+    <asp:ContentPlaceHolder id="HeadContent" runat="server">
+    
+    </asp:ContentPlaceHolder>
+	<link rel="shortcut icon" href="images/university.png" type="image/x-icon" />	
+	
+	<title>Hogwards University</title>
+	
+	
+	<style type="text/css">
+	
+	h1, h2, h3, h4, h5, h6, .slides .flex-caption p, .page-content blockquote, .event-full .event-info h4, .page-content table th
+	, #cancel-comment-reply-link {
+	font-family: 'Merriweather', serif !important;}#header-top, 
+		.block-title,
+		#reply-title,
+		.page-content table th, 
+		.block-title, 
+		.event-m,
+		.pagination-wrapper .selected,
+		.pagination-wrapper a:hover,
+		.wp-pagenavi .current,
+		.wp-pagenavi a:hover,
+		.teacher-4 li h3.teacher-title,
+		.blog-entry .blog-info .blog-date,
+		.page-title .page-title-block,
+		.title-block {
+			background: #191970 !important;
+		}#logo h1 span, 
+		table tr a, 
+		.event-info h4 a, 
+		.news-content h4 a, 
+		.blog-entry .blog-info .blog-date, 
+		.blog-entry .blog-content h3 a,
+		.sidebar-right #twitter_update_list li a,
+		.sidebar-left #twitter_update_list li a,
+		#footer .widget .latest-posts-list li .lpl-content h6 span,
+		.widget .latest-posts-list li .lpl-content h6 a,
+		.title1 h4 a,
+		.tp_recent_tweets .twitter_time,
+		.tp_recent_tweets a {
+			color: #191970 !important;
+		}#main-menu li.current_page_item, 
+		#main-menu li:hover,
+		.slider .flex-direction-nav .flex-prev,
+		.slider .flex-direction-nav .flex-next,
+		.page-content blockquote,
+		.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+		.pagination-wrapper .selected,
+		.pagination-wrapper a:hover,
+		.wp-pagenavi .current,
+		.wp-pagenavi a:hover,
+		.page-slider .flex-direction-nav .flex-prev,
+		.page-slider .flex-direction-nav .flex-next {
+			border-color: #191970 !important;
+		}.slider .flex-direction-nav .flex-prev,
+		.slider .flex-direction-nav .flex-next,
+		.page-slider .flex-direction-nav .flex-prev,
+		.page-slider .flex-direction-nav .flex-next {
+			background-color: #191970 !important;
+		}#footer-wrapper {
+			background: #191970 !important;
+		}#footer-bottom, #footer .tagcloud a, #footer .widget-title-block, .course-finder-full-form {
+			background: #0D0D5C !important;
+		}.top-left-nav li span, #header-top a:hover {
+			color: #adc2ff !important;
+		}.news-content p {display: none;}
+.news-content p.news-date {display:block;}
+#logo {margin: 30px 0 30px 30px;}
+.page-content ul li.photonic-gallery-3c {margin:0px !important;}
+.img-grey-logo {
+display: block;
+margin: 0 auto !important;
+
+}
+.slider .slides .flex-caption p {
+background: rgba(25, 25, 112, 0.72) !important;
+}</style>	
+	
+
+	<meta name="description" content="hogwarts university" />
+	
+	
+	
+
+
+<script async src="js/jas.js"></script>
+
+
+
+		
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet'   href='css/style.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet'   href='//www.formstack.com/forms/css/2/wordpress-post.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet'   href='css/mag-popup.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet'   href='css/elastislide.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet'   href='css/srizon.custom.min.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet'   href='css/slick.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet'   href='css/style.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet'   href='css/parkcollege.style.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' href='css/superfish.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet'  href='css/prettyPhoto.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet'   href='css/flexslider.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet'   href='css/responsive.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet'   href='css/colour.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet'  href='css/fonts.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet'   href='css/jquery.qtip.min.css?ver=3.1.20' type='text/css' media='all' />
+<link rel='stylesheet'   href='css/default-calendar-grid.min.css?ver=3.1.20' type='text/css' media='all' />
+<link rel='stylesheet'   href='css/default-calendar-list.min.css?ver=3.1.20' type='text/css' media='all' />
+<script type='text/javascript' src='js/modernizr.js?ver=5.1.1'></script>
+<script type='text/javascript' src='js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='js/mag-popup.js?ver=5.1.1'></script>
+<script type='text/javascript' src='js/jquery.collagePlus.min.js?ver=5.1.1'></script>
+<script type='text/javascript' src='js/jquery.elastislide.min.js?ver=5.1.1'></script>
+<script type='text/javascript' src='js/srizon.custom.min.js?ver=3.5.1'></script>
+
+<link rel="canonical" href="Home.aspx" />
+<link rel='shortlink' href='Home.aspx' />
+
+</head>
+    <body id="top" class="home page-template page-template-page-templates page-template-template-homepage page-template-page-templatestemplate-homepage-php page page-id-61 loading">
+
+	    <form id="form1" runat="server">
+            
+	
+	<div id="header-wrapper">
+		
+		<div id="header-border">
+		
+			<div id="header-top" class="clearfix">
+
+				
+				
+								<ul class="top-right-nav clearfix">
+					
+										<li class="phone-icon">+91 9757 4047 81</li>
+										
+										<li class="email-icon"><span class="__cf_email__" data-cfemail="">shettytana@gmail.com</span></li>
+									
+				</ul>
+							
+		
+			</div>
+			
+			
+			<div id="header-content-wrapper" class="clearfix">
+            
+									<div id="logo" class="site-title-image">
+						<h1>
+							<a href="Home.aspx"><img src="images/Abhishek University.png" 
+                                alt="idar clg ka naam daal dena" class="center" /></a>
+						</div>
+				
+				\
+				<ul class="social-icons clearfix"><li><a href="profile.aspx" target="_blank"><span class="facebook-icon"></span></a></li></ul>			
+			
+			</div>
+		
+			
+			<div id="main-menu-wrapper" class="clearfix">
+				
+				<ul id="main-menu"><li id="menu-item-776" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-61 current_page_item menu-item-776">
+                    <a title="University" href="coudev.aspx" aria-current="page" 
+                        style="font-weight: bold; text-transform: uppercase; font-size: small">Course Development</a></li>
+<li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7">
+    <a title="Learning Chart" href="Lerning.aspx" 
+        style="font-weight: bold; text-transform: uppercase; font-size: small">Learning Chart</a>
+
+<li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8">
+    <a title="Acdemic Council Member" href="acdemicmember.aspx" 
+        style="font-weight: bold; text-transform: uppercase; font-size: small">Acdemic Council Member</a>
+
+<li id="menu-item-147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-147">
+    <a title="Genral Instruction" href="instruction.aspx" 
+        style="font-weight: bold; text-transform: uppercase; font-size: small">Genral Instruction</a>
+        <li id="Li1" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-147">
+    <a title="News and Updates" href="newsupdate.aspx" 
+        style="font-weight: bold; text-transform: uppercase; font-size: small">News and Updates</a>
+        <li id="Li2" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-147">
+    <a title="Faculty" href="Faculty.aspx" 
+        style="font-weight: bold; text-transform: uppercase; font-size: small">Faculty</a>
+       
+   
+        <li id="Li4" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-147">
+    <a title="questions Papers" href="quespa.aspx" 
+        style="font-weight: bold; text-transform: uppercase; font-size: small">Question papers</a>
+</div>
+      </div>
+	        </div>
+	<div class="slider clearfix">
+		<ul class="slides slide-loader">
+				<li style="background-image:url(images/41338099-celebration-education-graduation-student-success-learning-concept.jpg)"></li>
+							<li style="background:url(images/03668_HD.jpg) no-repeat bottom center">
+										<div class="flex-caption-wrapper"><div class="flex-caption"><p>World-Class </p><div class="clearboth"></div><p>Facilities</p></div></div>									</li>	
+							<li style="background:url(images/depositphotos_184057236-stock-photo-programming-code-abstract-technology-background.jpg) no-repeat bottom center">
+										&nbsp;									</li>	
+							<li style="background:url(images/hdhai.jpg) no-repeat bottom center">
+										&nbsp;									</li>	
+							<li style="background:url(images/images-1-1.jpg ) no-repeat bottom center">
+										<div class="flex-caption-wrapper"><div class="flex-caption"><div class="clearboth"></div>
+<p>BIGGEST LIBRARY</p></div></div>									</li>	
+							<li style="background:url( images/41338099-celebration-education-graduation-student-success-learning-concept.jpg) no-repeat bottom center">
+										<div class="flex-caption-wrapper"><div class="flex-caption"><p>FUN AND LEARN</p>
+<div class="clearboth"></div>
+</div></div>									</li>	
+							<li style="background:url(images/maxresdefault.jpg) no-repeat bottom center">
+										<div class="flex-caption-wrapper"><div class="flex-caption"><div class="clearboth"></div>
+<p>CAMPUS </p></div></div>									</li>	
+							<li style="background:url(images/Computer%20Generated%20and%20Games_00067.jpg)
+                                
+                                 no-repeat bottom center">
+										<div class="flex-caption-wrapper"><div class="flex-caption"><div class="clearboth"></div>
+<p>MECHANIC BRANCH</p></div></div>									</li>	
+					</ul>
+	</div>
+
+	
+	<div class="header-block-wrapper clearfix">
+		<div class="header-block-inner">
+			<a href="Home.aspx" class="header-block-5 header-block-style-1 clearfix" style="background: #5e5e9b"><img src="images/icon4.png" alt="" /><h2>Home</h2></a>
+            <a href="AboutUs.aspx" class="header-block-5 header-block-style-1 clearfix" style="background: #47478d"><img src="images/icon2.png" alt="" /><h2>About Us</h2></a>
+            <a href="courseview.aspx" class="header-block-5 header-block-style-1 clearfix" style="background: #30307e"><img src="images/icon1.png" alt="" /><h2>Courses</h2></a>
+            <a href="contact.aspx" class="header-block-5 header-block-style-1 clearfix" style="background: #3b3b85"><img src="images/icon3.png" alt="" /><h2>Contact Us</h2></a>
+            <a href="photogall.aspx" class="header-block-5 header-block-style-1 clearfix" style="background: #252577"><img src="images/icon5.png" alt="" /><h2>Photo Gallery</h2></a>
+            		</div>
+	</div>
+   <center>   <div class="main" style="margin-top:165px;"  >   
+    <asp:ContentPlaceHolder ID="MainContent" runat="server"/>   
+   
+     </div></center> 
+
+    <div id="footer-bottom" class="clearfix"  >
+				
+									<p class="fl"><p  style="text-align: center;">© 2018 Hogwarts University, All rights reserved</p>
+
+<p  style="text-align: center;">
+<a  target="_blank" style="font-size:11px;color: #888;text-shadow: 0px 0px;">website managed by Abhishek Rajpurohit and Shoail Shaikh</a></p>
+<style>
+@import "http://files.universal.edu.in/common/style/uni-custom-style-v2.css";<%--DOWNLOADMARYAMOBILEKALIYASIMPHAIU--%>
+#footer .columns-4 li.col { width: 50%;}
+#logo {margin: 15px auto 15px auto;}
+@media only screen and (min-width: 768px) {
+#main-menu-wrapper .selector, #main-menu-wrapper  .selector span {width: 245px !important;
+}
+}
+
+#main-menu li a {
+    padding: 17px 13px 20px 13px;
+}
+#main-menu li {font-size: 11px;}
+.page-content table th, .page-content table td {padding: 2px;}
+
+</style></p>
+								
+				<p class="go-up fr">
+					<a class="scrollup" href="#top">Top</a>
+				</p>
+	
+			
+			</div>
+   
+           
+        </form>
+        
+<script type='text/javascript' src='js/slick.min.js'></script>
+<script type='text/javascript' src='js/jquery/jquery-ui.min.js?ver=1.8'></script>
+<script type='text/javascript' src='js/tinynav.min.js?ver=1.4.8'></script>
+<script type='text/javascript' src='js/jquery/jquery.uniform.js?ver=1.4.8'></script>
+<script type='text/javascript' src='js/superfish.js?ver=1.4.8'></script>
+<script type='text/javascript' src='js/jquery.prettyPhoto.js?ver=1.1.9'></script>
+<script type='text/javascript' src='js/jquery/jquery.flexslider-min.js?ver=1.1.9'></script>
+<script type='text/javascript' src='js/scripts.js?ver=1'></script>
+<script type='text/javascript' src='js/moment.min.js?ver=3.1.20'></script>
+
+</body>
+</html>
+
+
