@@ -15,4 +15,4 @@ This website man dynamic database Mangement features are :
 All the Admistration part falls under Admin page of the website ,the webiste is mainly focused on integrity and availability of data to all the website user ,Its a webiste which gives
 fully access to the person to get his document whenever they have a urgent need of them.
 
-
+![home (1)](https://user-images.githubusercontent.com/53573825/125496190-1da4b2f2-63a8-41c9-8bd2-e330b9ed9706.JPG)
